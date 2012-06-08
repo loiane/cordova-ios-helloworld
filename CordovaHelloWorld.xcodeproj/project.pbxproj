@@ -38,6 +38,7 @@
 		32A3B60A1562D23300F43925 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A3B6091562D23300F43925 /* MainViewController.m */; };
 		32A3B60C1562D23300F43925 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A3B60B1562D23300F43925 /* MainViewController.xib */; };
 		32A3B6101562D23300F43925 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 32A3B60F1562D23300F43925 /* verify.sh */; };
+		32A3B6171562D54700F43925 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 32A3B6161562D54700F43925 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +56,10 @@
 		32A3B5D21562D23200F43925 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		32A3B5D41562D23200F43925 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		32A3B5D61562D23200F43925 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		32A3B5DA1562D23200F43925 /* CordovaHelloWorld-Info.plist */ = {isa = PBXFileReference; path = "CordovaHelloWorld-Info.plist"; sourceTree = "<group>"; };
+		32A3B5DA1562D23200F43925 /* CordovaHelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CordovaHelloWorld-Info.plist"; sourceTree = "<group>"; };
 		32A3B5DC1562D23200F43925 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32A3B5DE1562D23200F43925 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32A3B5E01562D23200F43925 /* CordovaHelloWorld-Prefix.pch */ = {isa = PBXFileReference; path = "CordovaHelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		32A3B5E01562D23200F43925 /* CordovaHelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CordovaHelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		32A3B5E11562D23200F43925 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		32A3B5E61562D23200F43925 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		32A3B5EA1562D23200F43925 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +72,14 @@
 		32A3B5FE1562D23300F43925 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		32A3B6001562D23300F43925 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		32A3B6021562D23300F43925 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		32A3B6051562D23300F43925 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		32A3B6051562D23300F43925 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		32A3B6061562D23300F43925 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		32A3B6081562D23300F43925 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		32A3B6081562D23300F43925 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		32A3B6091562D23300F43925 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		32A3B60B1562D23300F43925 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		32A3B60E1562D23300F43925 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		32A3B60E1562D23300F43925 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		32A3B60F1562D23300F43925 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		32A3B6161562D54700F43925 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		32A3B5AC1562D23200F43925 = {
 			isa = PBXGroup;
 			children = (
+				32A3B6161562D54700F43925 /* www */,
 				32A3B5D81562D23200F43925 /* CordovaHelloWorld */,
 				32A3B5BD1562D23200F43925 /* Frameworks */,
 				32A3B5BB1562D23200F43925 /* Products */,
@@ -329,6 +332,7 @@
 				32A3B6031562D23300F43925 /* Cordova.plist in Resources */,
 				32A3B60C1562D23300F43925 /* MainViewController.xib in Resources */,
 				32A3B6101562D23300F43925 /* verify.sh in Resources */,
+				32A3B6171562D54700F43925 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
